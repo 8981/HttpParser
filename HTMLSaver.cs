@@ -19,7 +19,7 @@ namespace HttpParser
         public HTMLSaver (string[] pages)
         {
             page = pages;
-        }
+        } 
 
         public void SaveHTMLPage()
         {

@@ -12,7 +12,7 @@ namespace HttpParser
         ///<summary>
         ///Unique words and quantity
         ///</summary>
-        public string[] page { get; private set;}
+        public string[] page { get; private set;} 
 
         public CalcUniqWords(string[] pages)
         {

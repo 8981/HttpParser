@@ -31,7 +31,7 @@ namespace HttpParser
                 Console.WriteLine("File pages not exist");
                 string[] createText = { "https://www.simbirsoft.com/" };
                 File.WriteAllLines(path, createText);
-            }
+            } 
 
             templateReadText = File.ReadAllLines(path);
             readText = CheckUrl(templateReadText);
