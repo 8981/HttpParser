@@ -30,7 +30,7 @@ namespace HttpParser
                 if(text == null)
                 {
                     Console.WriteLine("Wrong respond from page");
-                    break;
+                    break; 
                 }
                 var result = Calculate(text);
                 result.Remove("");
